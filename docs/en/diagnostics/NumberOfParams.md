@@ -30,6 +30,7 @@ EndProcedure
 ```
 
 Correct:
+
 Group parameters, having goods item properties into Structure ЗначенияРеквизитов.
 
 ```bsl
