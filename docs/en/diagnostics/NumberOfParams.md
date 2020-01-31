@@ -29,7 +29,7 @@ Procedure CreateNewGoods(Description, Goods, Units, Weight, Check = True)
 EndProcedure
 ```
 
-Correct:\n
+Correct:
 Group parameters, having goods item properties into Structure ЗначенияРеквизитов.
 
 ```bsl
