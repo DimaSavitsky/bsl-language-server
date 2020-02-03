@@ -1,14 +1,14 @@
 # Number of parameters in method (NumberOfParams)
 
-| Type | Scope | Severity | Activated<br>by default | Minutes<br>to fix | Tags |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| `Code smell` | `BSL`<br>`OS` | `Minor` | `Yes` | `30` | `standard`<br>`brainoverload` |
+Type | Scope | Severity | Activated<br>by default | Minutes<br>to fix | Tags
+--- | --- | --- | --- | --- | ---
+`Code smell` | `BSL`<br>`OS` | `Trivial` | `Yes` | `30` | `standard`<br>`brainoverload`
 
 ## Parameters
 
-| Name | Type | Description | Default value |
-| :-: | :-: | :-- | :-: |
-| `maxParamsCount` | `Integer` | `Max number of params count` | `7` |
+Name | Type | Description | Default value
+--- | --- | --- | ---
+`maxParamsCount` | `Integer` | `Max number of params count` | `7`
 
 <!-- Блоки выше заполняются автоматически, не трогать -->
 
@@ -29,8 +29,7 @@ Procedure CreateNewGoods(Description, Goods, Units, Weight, Check = True)
 EndProcedure
 ```
 
-Correct:
- Group parameters, having goods item properties into Structure ЗначенияРеквизитов.
+Correct: Group parameters, having goods item properties into Structure ЗначенияРеквизитов.
 
 ```bsl
 // Create item in catalog "Goods"
